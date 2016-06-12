@@ -13,6 +13,7 @@
 		B1E782D01D0CC89900CF8CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E782CE1D0CC89900CF8CC8 /* LaunchScreen.storyboard */; };
 		B1E782D91D0CCAD500CF8CC8 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E782D81D0CCAD500CF8CC8 /* TweetTableViewCell.swift */; };
 		B1E782DB1D0CCAF400CF8CC8 /* TweetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E782DA1D0CCAF400CF8CC8 /* TweetTableViewController.swift */; };
+		B1E782DD1D0CD45D00CF8CC8 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E782DC1D0CD45D00CF8CC8 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B1E782D11D0CC89900CF8CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1E782D81D0CCAD500CF8CC8 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		B1E782DA1D0CCAF400CF8CC8 /* TweetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewController.swift; sourceTree = "<group>"; };
+		B1E782DC1D0CD45D00CF8CC8 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = "../../../../Developer/Xcode/DerivedData/Lecture9-hkbaxxnxeiuedkawvzzbnilqapzv/Build/Products/Debug-iphoneos/Twitter.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E782DD1D0CD45D00CF8CC8 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 		B1E782B91D0CC89900CF8CC8 = {
 			isa = PBXGroup;
 			children = (
+				B1E782DC1D0CD45D00CF8CC8 /* Twitter.framework */,
 				B1E782C41D0CC89900CF8CC8 /* Smashtag */,
 				B1E782C31D0CC89900CF8CC8 /* Products */,
 			);
@@ -298,6 +302,7 @@
 				B1E782D61D0CC89900CF8CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
